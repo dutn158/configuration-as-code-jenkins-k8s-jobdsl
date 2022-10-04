@@ -5,8 +5,7 @@ folder('project-a') {
             filterBuildQueue()
             filterExecutors()
             jobs {
-                name('release-projectA')
-                regex(/aut.+/)
+                name('auth')
             }
             jobFilters {
                 status {
