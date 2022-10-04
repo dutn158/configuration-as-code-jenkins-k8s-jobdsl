@@ -6,7 +6,7 @@ folder('project-a') {
             filterExecutors()
             jobs {
                 name('release-projectA')
-                regex(/project-A-.+/)
+                regex(/aut.+/)
             }
             jobFilters {
                 status {
